@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  supabaseUrl: 'https://krnceqczcaavjwoqnoqj.supabase.co',
+  supabaseKey:
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtybmNlcWN6Y2Fhdmp3b3Fub3FqIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUxOTk4NDUsImV4cCI6MTk2MDc3NTg0NX0.rFw-xNg7hY4pFUvwPau5oySUU33CpxXlAogRdWP6XsU',
 };
 
 /*
@@ -14,7 +17,6 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
