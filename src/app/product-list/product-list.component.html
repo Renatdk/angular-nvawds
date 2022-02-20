@@ -13,7 +13,7 @@
   <p *ngIf="product.description">Description: {{ product.description }}</p>
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>
-  <button type="button" (click)="share()">Share</button>
+  <button (click)="share()">Share</button>
 </div>
 
 <!-- 
